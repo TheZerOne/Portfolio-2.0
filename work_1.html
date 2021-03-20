@@ -5,7 +5,7 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 	<head>
-	<title>Sathish Ravichandran</title>
+	<title>EMR GlobeMed - Sathish Ravichandran</title>
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 	<link rel="shortcut icon" href="favicon.ico">
@@ -177,7 +177,7 @@
 								<h3 class="fh5co-section-heading"><span class="fh5co-number">N<sup>o</sup> 5</span> Website</h3>
 							</div>
 							<div class="col-md-9">
-								<p><a href="http://freehtml5.co" target="_blank">http://freehtml5.co</a></p>
+								<p><a href="https://alpha-it.com/emr-software/" target="_blank">https://alpha-it.com/emr-software/</a></p>
 							</div>
 						</div>
 
@@ -224,26 +224,98 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 text-center">
-						<p><small>&copy; 2016 Hold. All Rights Reserved. <br> Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Demo Images: <a href="http://unsplash.com" target="_blank">Unsplash</a> </small> </p>
+						<p><small>&copy; 2021 Sathish Ravichandran 
+							<!-- <br> Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Demo Images: <a href="http://unsplash.com" target="_blank">Unsplash</a> </small> -->
+						 </p>
 						<ul class="fh5co-social">
 							<li>
-								<a href="#"><i class="icon-twitter"></i></a>
+								<a href="https://www.behance.net/sathishravicha" target="_blank"><i class="icon-behance"></i></a>
 							</li>
 							<li>
-								<a href="#"><i class="icon-facebook"></i></a>
+								<a href="https://www.linkedin.com/in/ravichandransathish/" target="_blank"><i class="icon-linkedin"></i></a>
 							</li>
 							<li>
-								<a href="#"><i class="icon-instagram"></i></a>
+								<a href="mailto:sathishrav@protonmail.com"><i class="icon-mail2"></i></a>
 							</li>
 							<li>
-								<a href="#"><i class="icon-dribbble"></i></a>
+								<a href="https://www.instagram.com/isatz/" target="_blank" ><i class="icon-instagram"></i></a>
 							</li>
+
 						</ul>
 					</div>
 				</div>
 			</div>
 		</footer>
-
+		
+		<style>
+			.back-to-top {
+			  background-color: #000000;
+			  color: #FFFFFF;
+			  opacity: 0;
+			  transition: opacity .6s ease-in-out;
+			  z-index: 999;
+			  position: fixed;
+			  right: 20px;
+			  bottom: 20px;
+			  width: 50px;
+			  height: 50px;
+			  box-sizing: border-box;
+			  border-radius: 0%;
+			}
+		  
+			a.back-to-top {
+			  font-weight: 1000;
+			  letter-spacing: 2px;
+			  font-size: 14px;
+			  text-transform: uppercase;
+			  text-align: center;
+			  line-height: 1.6;
+			  padding-left: 2px;
+			  padding-top: 14px;
+			}
+		  
+			.back-to-top:hover, .back-to-top:focus, .back-to-top:visited {
+			  color: #FFFFFF;
+			}
+		  
+			.back-to-top.show {
+			  opacity: 1;
+			}
+		  </style>
+		  
+		  <!-- Adds the back to top link to your website -->
+		  <a href="#" id="back-to-top" class="back-to-top" style="display: inline;"><i class="icon-arrow-up2"></i></a>
+		  
+		  <!-- Fades in the button when you scroll down -->
+		  <script>
+			var link = document.getElementById("back-to-top");
+			var amountScrolled = 250;
+		  
+			window.addEventListener('scroll', function(e) {
+				if ( window.pageYOffset > amountScrolled ) {
+					link.classList.add('show');
+				} else {
+					link.className = 'back-to-top';
+				}
+			});
+		  
+		 
+			link.addEventListener('click', function(e) {
+				e.preventDefault();
+		  
+				var distance = 0 - window.pageYOffset;
+				var increments = distance/(500/16);
+				function animateScroll() {
+					window.scrollBy(0, increments);
+					if (window.pageYOffset <= document.body.offsetTop) {
+						clearInterval(runAnimation);
+					}
+				};
+				// Loop the animation function
+				var runAnimation = setInterval(animateScroll, 16);
+			});
+		  </script>
+		
 	</div>
 
 
